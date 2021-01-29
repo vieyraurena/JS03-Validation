@@ -43,6 +43,9 @@ const formValidation = () => {
     h3.appendChild(warning);  
   } else {
     warning.innerHTML = '';
+    inputName.classList.remove('red');
+    inputText.classList.remove('red');
+    inputEmail.classList.remove('red');
     check.innerHTML = 'Su formulario fue enviado';
     check.classList.add('green');
     form.appendChild(check);
