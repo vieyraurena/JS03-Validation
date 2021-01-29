@@ -1,0 +1,10 @@
+.red {
+  background-color: rgb(243, 201, 201);
+  border: 1px solid red;
+}
+
+.green {
+  padding: 20px;
+  background-color: rgb(175, 214, 175);
+  border: 1px solid rgb(15, 184, 105);
+}
