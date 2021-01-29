@@ -35,7 +35,7 @@ const check = document.createElement('p');
 check.innerHTML = '';
 
 const formValidation = () => {
-  if(inputText.value === '' || inputEmail.value === '' || inputName.value === '') {
+  if(inputText.value === '') {
     inputName.classList.add('red');
     inputText.classList.add('red');
     inputEmail.classList.add('red');
